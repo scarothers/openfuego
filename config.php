@@ -26,7 +26,6 @@ date_default_timezone_set('America/New_York');
  **/
 define(__NAMESPACE__ . '\AUTHORITIES', serialize(
 	array(
-		'clintonyates',
 		'kstreetkate',
 		'willsommer',
 		'mikedebonis',
