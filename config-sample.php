@@ -26,20 +26,25 @@ date_default_timezone_set('America/New_York');
  **/
 define(__NAMESPACE__ . '\AUTHORITIES', serialize(
 	array(
-		'someHandle1',
-		'someHandle2',
-		'someHandle3',
-		'someHandle4',
-		'someHandle5',
-		'someHandle6',
-		'someHandle7',
-		'someHandle8',
-		'someHandle9',
-	)
+		'clintonyates',
+		'kstreetkate',
+		'willsommer',
+		'mikedebonis',
+		'ggwash',
+		'POPville',
+		'themarkberman',
+		'kojoshow',
+		'kitastew',
+		'unsuckdcmetro',
+		'dcbigjohn',
+		'marionbarryjr',
+		'girlmeetsfood',
+		'tomsherwood',
+			)
 ));
 
 /** Your email address, for error reporting. Separate multiple addresses with commas. */
-const WEBMASTER = 'xxxx@harvard.edu';
+const WEBMASTER = 'saracarothers@gmail.com';
 
 /** For how many days should links remain in the database? Default: 1. Must be an integer. */
 const EXPIRATION_DAYS = 1;
@@ -47,9 +52,9 @@ const EXPIRATION_DAYS = 1;
 /** Your database credentials.
   * Only MySQL is supported, hipsters. */
 const
-	DB_NAME = 'xxxxx', 
-	DB_USER = 'xxxxx',
-	DB_PASS = 'xxxxx',
+	DB_NAME = 'dcfuego', 
+	DB_USER = 'root',
+	DB_PASS = 'panda',
 	DB_HOST = 'localhost',  // default: localhost
 	DB_PORT = 3306;  // default: 3306
 
@@ -58,18 +63,18 @@ const
   * Then generate new access tokens. Don't share the secrets with anyone.
 **/
 const
-	TWITTER_SCREEN_NAME = 'xxxx',
-	TWITTER_CONSUMER_KEY = 'xxxx',
-	TWITTER_CONSUMER_SECRET = 'xxxx',
-	TWITTER_OAUTH_TOKEN = 'xxxx-xxxx',
-	TWITTER_OAUTH_SECRET = 'xxxx';
+	TWITTER_SCREEN_NAME = 'sLcarothers',
+	TWITTER_CONSUMER_KEY = 'o7wkVxiNJDfKszkC9b4hA',
+	TWITTER_CONSUMER_SECRET = '6J1pU89Ipss8wmgf2uvlZkjUYcuGu1j84ox2c70TA',
+	TWITTER_OAUTH_TOKEN = '15510953-YRWkQUKqZLiu16L1gzPy4gheJEIcylKr8tzcPWeQ5',
+	TWITTER_OAUTH_SECRET = 'JefwXHp3EEOaIDoRuXI2WS7j2ccRNSKETamZkkJEmcq93';
 
 /** Your Bitly credentials. Visit this page to grab them: http://bitly.com/a/your_api_key 
   * Optional, recommended. Leave blank to disable.
 **/
 const
-	BITLY_USERNAME = '',
-	BITLY_API_KEY = '';
+	BITLY_USERNAME = 'scarothers',
+	BITLY_API_KEY = 'R_50788a9b16f086418a4bf84f7139ca3b';
 
 /** Your Goo.gl API credentials. Visit this page for instructions:
   * https://developers.google.com/url-shortener/v1/getting_started#APIKey 
