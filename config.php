@@ -54,7 +54,7 @@ const
 	DB_NAME = 'dcfuego', 
 	DB_USER = 'root',
 	DB_PASS = 'panda',
-	DB_HOST = 'localhost',  // default: localhost
+	DB_HOST = '127.0.0.1',  // default: localhost
 	DB_PORT = 3306;  // default: 3306
 
 /** Your Twitter credentials. If you don't have any yet, visit https://dev.twitter.com and sign in.
