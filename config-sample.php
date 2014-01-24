@@ -34,7 +34,7 @@ define(__NAMESPACE__ . '\AUTHORITIES', serialize(
 		'POPville',
 		'themarkberman',
 		'kojoshow',
-		'kitastew',
+		'jfdulac',
 		'unsuckdcmetro',
 		'dcbigjohn',
 		'marionbarryjr',
