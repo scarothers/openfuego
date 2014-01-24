@@ -52,7 +52,7 @@ const EXPIRATION_DAYS = 1;
 /** Your database credentials.
   * Only MySQL is supported, hipsters. */
 const
-	DB_NAME = 'dcfuego', 
+	DB_NAME = 'fuegodc', 
 	DB_USER = 'root',
 	DB_PASS = 'panda',
 	DB_HOST = 'localhost',  // default: localhost
