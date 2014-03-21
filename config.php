@@ -26,6 +26,7 @@ date_default_timezone_set('America/New_York');
  **/
 define(__NAMESPACE__ . '\AUTHORITIES', serialize(
 	array(
+		'clintonyates',
 		'kstreetkate',
 		'willsommer',
 		'mikedebonis',
@@ -51,10 +52,10 @@ const EXPIRATION_DAYS = 1;
 /** Your database credentials.
   * Only MySQL is supported, hipsters. */
 const
-	DB_NAME = 'dcfuego', 
+	DB_NAME = 'fuegodc', 
 	DB_USER = 'root',
 	DB_PASS = 'panda',
-	DB_HOST = '127.0.0.1',  // default: localhost
+	DB_HOST = 'localhost',  // default: localhost
 	DB_PORT = 3306;  // default: 3306
 
 /** Your Twitter credentials. If you don't have any yet, visit https://dev.twitter.com and sign in.
