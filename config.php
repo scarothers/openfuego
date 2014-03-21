@@ -52,9 +52,9 @@ const EXPIRATION_DAYS = 1;
 /** Your database credentials.
   * Only MySQL is supported, hipsters. */
 const
-	DB_NAME = 'fuegodc', 
+	DB_NAME = 'MyFirstConnection', 
 	DB_USER = 'root',
-	DB_PASS = 'panda',
+	DB_PASS = '',
 	DB_HOST = 'localhost',  // default: localhost
 	DB_PORT = 3306;  // default: 3306
 
