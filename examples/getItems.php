@@ -17,7 +17,7 @@ require(__DIR__ . '../../init.php');
 use OpenFuego\app\Getter as Getter;
 
 $fuego = new Getter();
-$items = $fuego->getItems(20, 24, TRUE, FALSE); // quantity, hours, scoring, metadata
+$items = $fuego->getItems(20, 24, FALSE, FALSE); // quantity, hours, scoring, metadata
 
 print '<pre>';
 print_r($items);
